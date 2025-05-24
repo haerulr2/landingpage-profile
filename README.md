@@ -1,4 +1,4 @@
-# Haerul – Personal Website & Portfolio
+# Haerul Fajar – Personal Website & Portfolio
 
 My personal portfolio site built with **Next.js**, **TailwindCSS**, and **App Router**, showcasing my work, background, and thoughts as a frontend developer.
 
