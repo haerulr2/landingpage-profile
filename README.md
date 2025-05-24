@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Haerul – Personal Website & Portfolio
 
-## Getting Started
+My personal portfolio site built with **Next.js**, **TailwindCSS**, and **App Router**, showcasing my work, background, and thoughts as a frontend developer.
 
-First, run the development server:
+Live at → [haerulr2.vercel.app](https://haerulr2.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Preview](https://github.com/user-attachments/assets/5df56516-1532-4705-ada1-2ae4ff09fc1a)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Tech Stack
 
-## Learn More
+- **Next.js 15** (App Router)
+- **TailwindCSS**
+- **Dark Mode** support
+- **Framer Motion** animations
+- **TypeScript**
+- **Deployed to Vercel**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📌 Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🎯 Homepage with strong personal intro
+- 🧑 About Me section
+- 💼 Dynamic Projects showcase
+- 📮 Contact form
+- 🌓 Theme toggle (dark/light)
+- 📱 Fully responsive
+- 🧠 SEO metadata ready
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌱 Why I Built This
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To build my personal brand as a developer, and create a digital presence I can control — not just rely on LinkedIn or job boards.
+
+---
+
+## 🛠️ Planned Enhancements
+
+- [ ] Add blog section
+- [ ] Add animations on scroll
+- [ ] Add CMS integration
+- [ ] Enhance accessibility
+
+---
+
+## 🤝 Credits
+
+- Inspired by several portfolio sites from the Dev Twitter & IndieHackers communities.
+- Built from scratch by [@haerulr2](https://github.com/haerulr2)
+
+---
+
+## 📃 License
+
+MIT
