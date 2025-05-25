@@ -16,19 +16,29 @@ export default function AboutCard() {
           </h1>
         </Reveal>
         <Reveal>
-          <p className="text-base text-default-700 leading-[1.6] font-[openSans] text-justify">
-            I&apos;m a frontend developer with 5+ years of experience working on international-level projects inside a software house.
-            I specialize in building scalable, clean, and maintainable UI — mostly using React/Next.js, Angular, PrimeNG, TailwindCSS, Heroui, and the occasional sprinkle of motion.
-            <br />
-            <br />
-            I&apos;ve worked on e-commerce platforms, internal dashboards, and SaaS admin tools, mostly as a silent builder behind the screen.
-            Now I&apos;m building a public presence — one commit at a time.
-            <br />
-            <br />
-            <strong className="font-[Poppins]">Tech I love:</strong> React, Next.js, Tailwind, Zustand, Framer Motion, Supabase
-            <br />
-            <strong className="font-[Poppins]">Currently learning:</strong> AWS back-end fundamentals & fullstack system architecture.
+          <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed font-[openSans] text-justify mb-4">
+            I&apos;m a frontend developer with <strong className="font-[Poppins]">5+ years of experience</strong>{' '}
+            working on international-level projects inside a software house.
+            I specialize in building scalable, clean, and maintainable UI — mostly using
+            {' '}<strong className="font-[Poppins]">React/Next.js</strong>, <strong className="font-[Poppins]">TailwindCSS</strong>,
+            {' '}and motion libraries.
           </p>
+
+          <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed font-[openSans] text-justify mb-4">
+            I&apos;ve worked on e-commerce platforms, internal dashboards, and SaaS admin tools, mostly as a silent builder behind the screen.
+            Now I&apos;m building a public presence — <em>one commit at a time.</em>
+          </p>
+
+          <div className="text-sm font-[openSans] text-justify mb-4">
+            <p className="mb-1 text-gray-700 dark:text-gray-300">
+              <span className="font-medium text-gray-800 dark:text-gray-200">🛠️ Tech I love:</span>{' '}
+              React, Next.js, Tailwind, Zustand, Framer Motion, Supabase
+            </p>
+            <p className="text-gray-700 dark:text-gray-300">
+              <span className="font-medium text-gray-800 dark:text-gray-200">📚 Currently learning:</span>{' '}
+              AWS Back-End & Fullstack System Architecture
+            </p>
+          </div>
         </Reveal>
       </div>
     </div>
