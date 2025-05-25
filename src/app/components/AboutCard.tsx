@@ -16,16 +16,18 @@ export default function AboutCard() {
           </h1>
         </Reveal>
         <Reveal>
-          <p className="text-base text-default-700 leading-[1.6] font-[openSans]">
+          <p className="text-base text-default-700 leading-[1.6] font-[openSans] text-justify">
             I&apos;m a frontend developer with 5+ years of experience working on international-level projects inside a software house.
             I specialize in building scalable, clean, and maintainable UI — mostly using React/Next.js, Angular, PrimeNG, TailwindCSS, Heroui, and the occasional sprinkle of motion.
-
+            <br />
+            <br />
             I&apos;ve worked on e-commerce platforms, internal dashboards, and SaaS admin tools, mostly as a silent builder behind the screen.
             Now I&apos;m building a public presence — one commit at a time.
-
-            Tech I love: React, Next.js, Tailwind, Zustand, Framer Motion, Supabase
-            Currently learning: AWS back-end fundamentals & fullstack system architecture.
-
+            <br />
+            <br />
+            <strong className="font-[Poppins]">Tech I love:</strong> React, Next.js, Tailwind, Zustand, Framer Motion, Supabase
+            <br />
+            <strong className="font-[Poppins]">Currently learning:</strong> AWS back-end fundamentals & fullstack system architecture.
           </p>
         </Reveal>
       </div>

@@ -9,5 +9,5 @@ export interface projects {
   description: string;
   image: string;
   link: string;
-  tags: string[];
+  tech: string[];
 }

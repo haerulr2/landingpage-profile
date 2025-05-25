@@ -2,24 +2,17 @@ import { projects } from "../data";
 
 export const projectsList: projects[] = [
   {
-    title: "Portfolio Website",
-    description: "A modern portfolio website built with Next.js and TailwindCSS",
-    image: "/images/portfolio.jpg",
-    link: "https://portfolio.example.com",
-    tags: ["Next.js", "TailwindCSS", "TypeScript"]
+    title: "PayTrack Dashboard",
+    description: "Stripe-inspired dashboard app to showcase frontend architecture and real-world UI logic: metric cards, charts, filters, pagination, dark mode.",
+    image: "/images/pay-track.png",
+    link: "https://pay-track-eta.vercel.app",
+    tech: ["Next.js", "Tailwind", "Recharts", "Framer Motion"]
   },
   {
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce solution with payment integration",
-    image: "/images/ecommerce.jpg",
-    link: "https://ecommerce.example.com",
-    tags: ["React", "Node.js", "MongoDB"]
-  },
-  {
-    title: "Blog Platform",
-    description: "A dynamic blog platform with CMS integration",
-    image: "/images/blog.jpg",
-    link: "https://blog.example.com",
-    tags: ["Next.js", "Strapi", "PostgreSQL"]
+    title: "Haerul Blogs",
+    description: "Markdown-based personal blog prototype with clean layout and responsive design, built for writing, sharing, and showcasing tech notes.",
+    image: "https://placehold.co/600x400.png",
+    link: "",
+    tech: ["Next.js", "Tailwind", "MDX"]
   }
-]; 
+];
