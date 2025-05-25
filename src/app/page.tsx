@@ -10,6 +10,7 @@ import ServiceCard from "./components/ServiceCard";
 import ProjectCard from "./components/ProjectCard";
 import { servicesList } from "@/lib/data/services";
 import { projectsList } from "@/lib/data/projects";
+import AboutCard from "./components/AboutCard";
 
 export default function Home() {
   return (
@@ -48,78 +49,8 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section
-        id="about"
-        className={`flex flex-col md:flex-row gap-12 md:gap-0 justify-center bg-slate-100
-        dark:bg-zinc-800 w-full py-20 px-3 lg:py-34 sm:pl-10 lg:pl-30`}>
-        <Reveal>
-          <div className="w-full sm:w-[410px] sm:pr-15">
-            <h2 className="text-3xl font-semibold mb-3 text-black dark:text-white">
-              Hi I&apos;m Haerul Fajar,
-            </h2>
-            <p className="text-base text-default-700 leading-[1.6]">
-              And I love to create beautiful and efficient websites for my customers.
-              I love going through the entire process with the customer from concept,
-              to design and then development and launch
-            </p>
-          </div>
-        </Reveal>
-
-        <Reveal>
-          <div className="w-full sm:w-[410px] sm:pr-15">
-            <div className="flex flex-col mb-6">
-              <p className="text-sm font-semibold text-blue-900 dark:text-blue-500 font-[Poppins] mb-3">
-                2019 - PRESENT
-              </p>
-              <p className="text-base text-black dark:text-white font-semibold font-[Poppins] mb-1">
-                Freelance Web Developer
-              </p>
-              <p className="text-base text-default-700 font-[openSans]">
-                Working happily on my own web projects
-              </p>
-            </div>
-
-            <div className="flex flex-col">
-              <p className="text-sm font-semibold text-blue-900 dark:text-blue-500 font-[Poppins] mb-3">
-                2018 - 2019
-              </p>
-              <p className="text-base text-black dark:text-white font-semibold font-[Poppins] mb-1">
-                Lead Web Developer
-              </p>
-              <p className="text-base text-default-700 font-[openSans]">
-                Beautiful project for a major digital agency
-              </p>
-            </div>
-          </div>
-        </Reveal>
-
-        <Reveal>
-          <div className="w-full sm:w-[410px] sm:pr-15">
-            <div className="flex flex-col mb-6">
-              <p className="text-sm font-semibold text-blue-900 dark:text-blue-500 font-[Poppins] mb-3">
-                2017 - 2018
-              </p>
-              <p className="text-base text-black dark:text-white font-semibold font-[Poppins] mb-1">
-                Senior Web Designer
-              </p>
-              <p className="text-base text-default-700 font-[openSans]">
-                Inhouse web designer for ecommerce firm
-              </p>
-            </div>
-
-            <div className="flex flex-col">
-              <p className="text-sm font-semibold text-blue-900 dark:text-blue-500 font-[Poppins] mb-3">
-                2016 - 2017
-              </p>
-              <p className="text-base text-black dark:text-white font-semibold font-[Poppins] mb-1">
-                Junior Web Designer
-              </p>
-              <p className="text-base text-default-700 font-[openSans]">
-                Junior web designer for small web agency
-              </p>
-            </div>
-          </div>
-        </Reveal>
+      <section id="about" className="bg-slate-100 dark:bg-zinc-800 w-full">
+        <AboutCard />
       </section>
 
       {/* Services Section */}
@@ -128,9 +59,9 @@ export default function Home() {
         className={`flex flex-col items-center justify-center bg-white dark:bg-zinc-900 w-full py-20 px-3 lg:py-34`}>
         <Reveal>
           <div className="max-w-3xl text-center mb-15">
-            <h2 className="text-3xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
+            <h1 className="text-3xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
               Offered services
-            </h2>
+            </h1>
             <p className="text-base text-default-700 font-[openSans]">
               Web design and development have been my bread and butter for more than 5 years.
               During that time I&apos;ve discovered that I can help startups
@@ -159,9 +90,9 @@ export default function Home() {
         <div className="text-left px-3 lg:px-30 py-10 lg:py-30 h-full">
           <Reveal>
             <div className="flex flex-col mb-10">
-              <h2 className="text-3xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
+              <h1 className="text-3xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
                 Why Work With Me
-              </h2>
+              </h1>
               <p className="text-base text-default-700 font-[openSans]">
                 I am a great communicator and love to invest the necessary
                 time to understand the customer&apos;s problem very well
@@ -171,9 +102,9 @@ export default function Home() {
 
           <Reveal>
             <div className="flex flex-col mb-10">
-              <h3 className="text-xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
+              <h2 className="text-xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
                 DESIGN TOOLS
-              </h3>
+              </h2>
               <p className="text-base text-default-700 font-[openSans]">
                 I use Figma to design my projects and I&apos;m also familiar with
                 Adobe Photoshop and Illustrator
@@ -183,9 +114,9 @@ export default function Home() {
 
           <Reveal>
             <div className="flex flex-col mb-10">
-              <h3 className="text-xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
+              <h2 className="text-xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
                 DEVELOPMENT SKILLS
-              </h3>
+              </h2>
               <p className="text-base text-default-700 font-[openSans]">
                 I am familiar and work on a daily basis with HTML, CSS,
                 JavaScript, Bootstrap and other modern frameworks
@@ -272,9 +203,9 @@ export default function Home() {
         className={`flex flex-col items-center justify-center bg-white dark:bg-zinc-900 w-full py-20 px-3 lg:py-34`}>
         <Reveal>
           <div className="w-full mb-15">
-            <h2 className="text-3xl text-center font-semibold mb-3 text-black dark:text-white font-[Poppins]">
+            <h1 className="text-3xl text-center font-semibold mb-3 text-black dark:text-white font-[Poppins]">
               My Projects
-            </h2>
+            </h1>
             <p className="max-w-3xl mx-auto text-center px-2 text-base text-default-700 font-[openSans]">
               Here are some of my projects that I have worked on. I specialize in
               creating modern, responsive websites and web applications using cutting-edge
@@ -297,9 +228,9 @@ export default function Home() {
         className={`flex flex-col items-center justify-center bg-slate-100 dark:bg-zinc-800 w-full py-20 px-3 lg:py-34`}>
         <Reveal>
           <div className="max-w-3xl text-center mb-15">
-            <h2 className="text-3xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
+            <h1 className="text-3xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
               Contact Me
-            </h2>
+            </h1>
             <p className="text-base text-default-700 font-[openSans]">
               For any type of online project please don&apos;t hesitate to get in touch with me.
               The fastest way is to send me your message using the following email contact@domain.com
