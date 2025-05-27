@@ -71,7 +71,7 @@ export default function FooterComponent() {
           />
       </div>
       <div className="flex flex-row justify-center items-center gap-5">
-        <p className="text-default-400 text-sm">© 2025 Heroui. All rights reserved.</p>
+        <p className="text-default-400 text-sm">&copy; 2025 Haerul Fajar. All rights reserved.</p>
       </div>
     </footer>
   );
