@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Image, Input, Textarea } from "@heroui/react";
+import { Button, Input, Textarea } from "@heroui/react";
 import NavbarComponent from "./components/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
@@ -11,6 +11,7 @@ import ProjectCard from "./components/ProjectCard";
 import { servicesList } from "@/lib/data/services";
 import { projectsList } from "@/lib/data/projects";
 import AboutCard from "./components/AboutCard";
+import MyWork from "./components/MyWork";
 
 export default function Home() {
   return (
@@ -83,118 +84,7 @@ export default function Home() {
       <section
         id="my-work"
         className={`grid grid-cols-1 xl:grid-cols-2 bg-slate-100 dark:bg-zinc-800 w-full`}>
-        <div className="h-[400px] sm:h-[500px] xl:h-full relative bg-[url('/images/details-background.jpg')] bg-cover bg-center">
-          <div className="absolute top-0 left-0 bg-zinc-900/50 h-full w-full z-10"></div>
-        </div>
-
-        <div className="text-left px-3 lg:px-30 py-10 lg:py-30 h-full">
-          <Reveal>
-            <div className="flex flex-col mb-10">
-              <h1 className="text-3xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
-                Why Work With Me
-              </h1>
-              <p className="text-base text-default-700 font-[openSans]">
-                I am a great communicator and love to invest the necessary
-                time to understand the customer&apos;s problem very well
-              </p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-col mb-10">
-              <h2 className="text-xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
-                DESIGN TOOLS
-              </h2>
-              <p className="text-base text-default-700 font-[openSans]">
-                I use Figma to design my projects and I&apos;m also familiar with
-                Adobe Photoshop and Illustrator
-              </p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-col mb-10">
-              <h2 className="text-xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
-                DEVELOPMENT SKILLS
-              </h2>
-              <p className="text-base text-default-700 font-[openSans]">
-                I am familiar and work on a daily basis with HTML, CSS,
-                JavaScript, Bootstrap and other modern frameworks
-              </p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-row flex-wrap gap-5">
-              <Image
-                radius="none"
-                src="/icons/photoshop.png"
-                alt="photoshop"
-                width={50}
-                height={50}
-                classNames={{
-                  wrapper: "transition-all duration-300 hover:scale-110 hover:shadow-lg"
-                }}
-                className="shadow-md"
-              />
-              <Image
-                radius="none"
-                src="/icons/illustrator.png"
-                alt="illustrator"
-                width={50}
-                height={50}
-                classNames={{
-                  wrapper: "transition-all duration-300 hover:scale-110 hover:shadow-lg"
-                }}
-                className="shadow-md"
-              />
-              <Image
-                radius="none"
-                src="/icons/html.png"
-                alt="html"
-                width={50}
-                height={50}
-                classNames={{
-                  wrapper: "transition-all duration-300 hover:scale-110 hover:shadow-lg"
-                }}
-                className="shadow-md"
-              />
-              <Image
-                radius="none"
-                src="/icons/css.png"
-                alt="css"
-                width={50}
-                height={50}
-                classNames={{
-                  wrapper: "transition-all duration-300 hover:scale-110 hover:shadow-lg"
-                }}
-                className="shadow-md"
-              />
-              <Image
-                radius="none"
-                src="/icons/javascript.png"
-                alt="js"
-                width={50}
-                height={50}
-                classNames={{
-                  wrapper: "transition-all duration-300 hover:scale-110 hover:shadow-lg"
-                }}
-                className="shadow-md"
-              />
-              <Image
-                radius="none"
-                src="/icons/bootstrap.png"
-                alt="bootstrap"
-                width={50}
-                height={50}
-                classNames={{
-                  wrapper: "transition-all duration-300 hover:scale-110 hover:shadow-lg"
-                }}
-                className="shadow-md"
-              />
-            </div>
-          </Reveal>
-        </div>
+        <MyWork />
       </section>
 
       {/* Projects Section */}

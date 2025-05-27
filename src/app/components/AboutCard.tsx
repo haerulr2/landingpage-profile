@@ -31,11 +31,11 @@ export default function AboutCard() {
 
           <div className="text-sm font-[openSans] text-justify mb-4">
             <p className="mb-1 text-gray-700 dark:text-gray-300">
-              <span className="font-medium text-gray-800 dark:text-gray-200">🛠️ Tech I love:</span>{' '}
+              <span className="font-medium text-gray-800 dark:text-gray-200">Tech I love:</span>{' '}
               React, Next.js, Tailwind, Zustand, Framer Motion, Supabase
             </p>
             <p className="text-gray-700 dark:text-gray-300">
-              <span className="font-medium text-gray-800 dark:text-gray-200">📚 Currently learning:</span>{' '}
+              <span className="font-medium text-gray-800 dark:text-gray-200">Currently learning:</span>{' '}
               AWS Back-End & Fullstack System Architecture
             </p>
           </div>
