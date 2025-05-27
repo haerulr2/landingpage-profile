@@ -8,12 +8,14 @@ const nextConfig: NextConfig = {
   /* Experimental features for better performance */
   experimental: {
     optimizePackageImports: ['@heroui/react', 'framer-motion', '@fortawesome/react-fontawesome'],
-    turbo: {
-      rules: {
-        '*.svg': {
-          loaders: ['@svgr/webpack'],
-          as: '*.js',
-        },
+  },
+
+  /* Turbopack configuration (now stable) */
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
       },
     },
   },
