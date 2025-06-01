@@ -16,7 +16,7 @@ export default function AboutCard() {
           </h1>
         </Reveal>
         <Reveal>
-          <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed font-[openSans] text-justify mb-4">
+          <p className="text-gray-700 dark:text-gray-300 text-base font-[openSans] text-start md:text-center mb-4">
             I&apos;m a frontend developer with <strong className="font-[Poppins]">5+ years of experience</strong>{' '}
             working on international-level projects inside a software house.
             I specialize in building scalable, clean, and maintainable UI — mostly using
@@ -24,17 +24,17 @@ export default function AboutCard() {
             {' '}and motion libraries.
           </p>
 
-          <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed font-[openSans] text-justify mb-4">
+          <p className="text-gray-700 dark:text-gray-300 text-base font-[openSans] text-start md:text-center mb-4">
             I&apos;ve worked on e-commerce platforms, internal dashboards, and SaaS admin tools, mostly as a silent builder behind the screen.
             Now I&apos;m building a public presence — <em>one commit at a time.</em>
           </p>
 
-          <div className="text-sm font-[openSans] text-justify mb-4">
-            <p className="mb-1 text-gray-700 dark:text-gray-300">
+          <div className="font-[openSans] text-start md:text-center mb-4">
+            <p className="mb-1 text-gray-700 dark:text-gray-300 text-base">
               <span className="font-medium text-gray-800 dark:text-gray-200">Tech I love:</span>{' '}
               React, Next.js, Tailwind, Zustand, Framer Motion, Supabase
             </p>
-            <p className="text-gray-700 dark:text-gray-300">
+            <p className="text-gray-700 dark:text-gray-300 text-base">
               <span className="font-medium text-gray-800 dark:text-gray-200">Currently learning:</span>{' '}
               AWS Back-End & Fullstack System Architecture
             </p>
