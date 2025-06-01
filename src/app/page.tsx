@@ -57,13 +57,13 @@ export default function Home() {
       {/* Services Section */}
       <section
         id="services"
-        className={`flex flex-col items-center justify-center bg-white dark:bg-zinc-900 w-full py-20 lg:py-34`}>
+        className={`flex flex-col items-center justify-center bg-white dark:bg-zinc-900 w-full py-20 px-3 lg:py-34`}>
         <Reveal>
           <div className="max-w-5xl text-center mb-15">
             <h1 className="text-3xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
               Offered services
             </h1>
-            <p className="text-base text-default-700 font-[openSans]">
+            <p className="text-base text-left md:text-center text-default-700 font-[openSans]">
               Web design and development have been my bread and butter for more than 5 years.
               During that time I&apos;ve discovered that I can help startups
               and companies with the following services
@@ -92,21 +92,19 @@ export default function Home() {
         id="projects"
         className={`flex flex-col items-center justify-center bg-white dark:bg-zinc-900 w-full py-20 px-3 lg:py-34`}>
         <Reveal>
-          <div className="w-full mb-15">
-            <h1 className="text-3xl text-center font-semibold mb-3 text-black dark:text-white font-[Poppins]">
+          <div className="max-w-5xl text-center mb-15">
+            <h1 className="text-3xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
               My Projects
             </h1>
-            <p className="max-w-5xl mx-auto text-center px-2 text-base text-default-700 font-[openSans]">
+            <p className="text-base text-left md:text-center text-default-700 font-[openSans]">
               Here&apos;s a selection of projects I&apos;ve built to sharpen my frontend skills and architect real-world user interfaces.
-            </p>
-            <p className="max-w-5xl mx-auto text-center px-2 text-base text-default-700 font-[openSans] mb-4">
               Each project is crafted with clean code, scalable components, and a strong focus on performance and usability.
-            </p>
-            <p className="max-w-5xl mx-auto text-center px-2 text-base text-default-700 font-[openSans] mb-4">
               From dashboards to dynamic web apps, these works reflect my approach to modern web development — practical, purposeful, and production-minded.
             </p>
           </div>
+        </Reveal>
 
+        <Reveal>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
             {projectsList.map((project, index) => (
               <ProjectCard key={index} {...project} />
@@ -124,23 +122,23 @@ export default function Home() {
             <h1 className="text-3xl font-semibold mb-3 text-black dark:text-white font-[Poppins]">
               Contact Me
             </h1>
-            <p className="text-base text-default-700 font-[openSans]">
+            <p className="text-base text-left md:text-center text-default-700 font-[openSans]">
               For any type of online project please don&apos;t hesitate to get in touch with me.
               The fastest way is to send me your message using the following email contact@domain.com
             </p>
 
             <div className="flex flex-col gap-4">
-              <p className="text-base text-default-700 font-[openSans]">
+              <p className="text-base text-left md:text-center text-default-700 font-[openSans]">
                 Let&apos;s build something together.
               </p>
-              <p className="text-base text-default-700 font-[openSans]">
+              <p className="text-base text-left md:text-center text-default-700 font-[openSans]">
                 If you&apos;re looking for a frontend developer who actually ships,
                 reach me at: haerulfr7@gmail.com
                 or connect via <a href="javascript:void(0)" className="text-blue-500" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </p>
 
-              <p className="text-base text-default-700 font-[openSans]">
-                🛠️ Prefer GitHub? <a href="https://github.com/haerulr2" className="text-blue-500" target="_blank" rel="noopener noreferrer">haerulr2</a>
+              <p className="text-base text-left md:text-center text-default-700 font-[openSans]">
+                Prefer GitHub? <a href="https://github.com/haerulr2" className="text-blue-500" target="_blank" rel="noopener noreferrer">haerulr2</a>
               </p>
 
             </div>
